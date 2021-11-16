@@ -25,3 +25,15 @@ occurances('fleep floop', 'e')   # returns 2
 occurances('fleep floop', 'p')   # returns 2
 occurances('fleep floop', 'oo')  # returns 1
 occurances('fleep floop', 'fe')  # returns 0
+
+
+def product(*num):
+  sum = 1
+  for n in num:
+    sum = sum * n
+  print(sum)
+
+
+product(-1, 4)  # returns -4
+product(2, 5, 5)  # returns 50
+product(4, 0.5, 5)  # returns 10.0
